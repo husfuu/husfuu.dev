@@ -29,7 +29,7 @@ const About: NextPage = () => {
         {/*  Start About */}
         <Section label="About me">
           <h1 className="mb-1 text-3xl font-extrabold tracking-wide">
-            Khoironi Kurnia Syah
+            M. Husni Nur Fadillah
           </h1>
           <figure className="float-right ml-6 w-36 rounded shadow-md md:w-72">
             <Image

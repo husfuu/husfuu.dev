@@ -1,14 +1,14 @@
 {
-  "name": "zekhoi.dev",
-  "version": "3.0.0",
+  "name": "husfuu.dev",
+  "version": "1.0.0",
   "private": true,
-  "description": "The third version of my personal website.",
+  "description": "My personal website.",
   "homepage": "https://github.com/zekhoi/zekhoi.dev#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zekhoi/zekhoi.dev.git"
   },
-  "author": "Khoironi Kurnia Syah",
+  "author": "M. Husni Nur Fadillah",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/zekhoi/zekhoi.dev/issues"
