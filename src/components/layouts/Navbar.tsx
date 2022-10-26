@@ -2,7 +2,6 @@ import { useState } from "react";
 
 import MenuButton from "@/components/buttons/MenuButton";
 import ThemeButton from "@/components/buttons/ThemeButton";
-import Logo from "@/components/icons/Logo";
 import Drawer from "@/components/layouts/Drawer";
 import NavItem from "@/components/links/NavItem";
 
@@ -24,7 +23,7 @@ const Navbar = () => {
               className="flex md:hidden"
               onClick={() => setIsOpen(!isOpen)}
             />
-            <Logo />
+            <div className="text-lg font-semibold">husfuu.dev</div>
             <ul className="hidden items-center justify-between space-x-2 text-xs md:flex md:space-x-2 md:text-sm xl:space-x-3 xl:text-base">
               {navlinks.map(({ href, label }) => (
                 <li key={`li${href}${label}`}>

@@ -1,12 +1,12 @@
 module.exports = {
   domain: process.env.MYDOMAIN || "http://localhost:3000",
-  coloronlydark: true,
+  coloronlydark: false,
   onlygray: false,
   name: "M. Husni Nur Fadillah",
   image: "/img/husni-formal-removebg-preview.png",
   profile: "/img/husni-formal-removebg-preview.png",
   thumbnail: "/img/thumbnail.png",
-  blogthumbnail: "/img/blog-thumbnail.png",
+  blogthumbnail: "/img/Wavy_Bus-15_Single-06.jpg",
   role: "Backend Engineer Wannabe",
   description:
     "A mathematics graduate who has a passion for the field of software engineering, especially backend development.",
@@ -23,9 +23,7 @@ module.exports = {
   navlinks: [
     { href: "/", label: "Home" },
     { href: "/about", label: "About" },
-    { href: "/blog", label: "Blog" },
-    // { href: "/resources", label: "Resources" },
-    // { href: "/snippets", label: "Snippets" },
+    { href: "https://medium.com/@husfuu", label: "Blog" },
     { href: "/projects", label: "Projects" },
   ],
   about: [
@@ -36,18 +34,27 @@ module.exports = {
   ],
   experiences: [
     {
+      startTime: "September 2022",
+      endTime: "Oktober 2022",
+      role: "Trainee Scalable Web Services with Golang",
+      company: "Digitalent Scholarship Kominfo",
+      description: "Build a REST API Instagram with Golang.",
+    },
+    {
       startTime: "August 2021",
-      endTime: "Februari 2022",
-      role: "Fullstack Web Development",
+      endTime: "February 2022",
+      role: "Studi Independen Fullstack Web Development",
       company: "Binar Academy",
-      description: "Studi Independen Kampus Merdeka Batch 1",
+      description:
+        "Collaborate to build a REST API for the bener.in Project, a website that provides online automotive services.",
     },
     {
       startTime: "December 2022",
       endTime: "March 2022",
-      role: "Data Science",
+      role: "Data Science Bootcamp",
       company: "Data Science Indonesia",
-      description: "Studi Independen Kampus Merdeka Batch 1",
+      description:
+        "Analyze and create dashboards for natural disaster data from Badan Nasional Penanggulangan Bencana and Peta Bencana.",
     },
   ],
   educations: [
@@ -69,40 +76,46 @@ module.exports = {
   projects: [
     {
       title: "Topup Gimang - Server",
-      image: "",
-      url: "https://corona.zekhoi.my.id/",
-      description: "A website that track corona virus every country.",
-      stacks: ["nodejs", "express", "vercel"],
+      image: "/img/no_image_project.jpg",
+      url: "https://github.com/husfuu/topup-gimang-server",
+      description: "REST API for Toup Game service",
+      stacks: ["nodejs", "express", "postgres"],
     },
     {
       title: "Topup Gimang - Dashboard",
-      image: "",
-      url: "https://zekhoi.my.id/",
-      description:
-        "My Personal website version 2 build with NextJS and Tailwind.",
-      stacks: ["tailwindcss", "nextjs", "vercel"],
+      image: "/img/topup-gimang-dashboard.png",
+      url: "https://topup-gimang-server.herokuapp.com/",
+      description: "Admin dashboard for topup gimang project",
+      stacks: ["javascript", "express"],
+    },
+    {
+      title: "bener.in",
+      image: "/img/benerin_project.png",
+      url: "https://benerin-app.herokuapp.com/",
+      description: "Web app that provides online automotive services.",
+      stacks: ["nodejs", "express", "postgres"],
     },
     {
       title: "GoGram - REST API",
-      image: "",
-      url: "https://discord.com/api/oauth2/authorize?client_id=935198224761896980&permissions=8&scope=bot",
-      description: "A basic discord bot, it can speak.",
-      stacks: ["nodejs", "javascript"],
+      image: "/img/no_image_project.jpg",
+      url: "https://github.com/husfuu/go-gram",
+      description: "A Simple RESTful API Instagram with Go",
+      stacks: ["golang", "postgres"],
     },
     {
       title: "BookShelf - REST API",
-      image: "",
-      url: "https://seminar.zekhoi.my.id/",
-      description: "Seminar Schedule Event Calendar from Matematika FMIPA ULM.",
-      stacks: ["tailwindcss", "nextjs", "vercel"],
+      image: "/img/no_image_project.jpg",
+      url: "https://github.com/husfuu/bookshelf-api-dicoding",
+      description: "REST API for bookshelf",
+      stacks: ["nodejs", "javascript"],
     },
-    {
-      title: "Go-biodata-CLI - CLI APP",
-      image: "",
-      url: "https://booku.zekhoi.my.id/",
-      description: "Technical test result.",
-      stacks: ["tailwindcss", "nextjs", "vercel"],
-    },
+    // {
+    //   title: "Go-biodata-CLI - CLI APP",
+    //   image: "/img/no_image_project.jpg",
+    //   url: "https://github.com/husfuu/go-biodata-cli",
+    //   description: "Technical test result.",
+    //   stacks: ["golang"],
+    // },
   ],
   colors: {
     primary: {

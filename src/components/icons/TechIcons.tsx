@@ -2,8 +2,10 @@ import clsx from "clsx";
 import * as React from "react";
 import { IoLogoVercel } from "react-icons/io5";
 import {
+  SiExpress,
   SiFirebase,
   SiGit,
+  SiGo,
   SiGoogleanalytics,
   SiJavascript,
   SiMarkdown,
@@ -11,12 +13,12 @@ import {
   SiNextdotjs,
   SiNodedotjs,
   SiNotion,
+  SiPostgresql,
   SiPrettier,
   SiReact,
   SiRedux,
   SiSass,
   SiTailwindcss,
-  SiTypescript,
 } from "react-icons/si";
 
 import { TechIconsProps } from "@/types/global";
@@ -40,6 +42,18 @@ export default function TechIcons({ className, techs }: TechIconsProps) {
 }
 
 export const techList = {
+  postgres: {
+    icon: SiPostgresql,
+    name: "postgresql",
+  },
+  express: {
+    icon: SiExpress,
+    name: "express",
+  },
+  golang: {
+    icon: SiGo,
+    name: "Golang",
+  },
   react: {
     icon: SiReact,
     name: "React",
@@ -59,10 +73,6 @@ export const techList = {
   javascript: {
     icon: SiJavascript,
     name: "JavaScript",
-  },
-  typescript: {
-    icon: SiTypescript,
-    name: "TypeScript",
   },
   nodejs: {
     icon: SiNodedotjs,

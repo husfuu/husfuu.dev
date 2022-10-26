@@ -24,7 +24,7 @@ const Footer = () => {
             © {new Date().getFullYear()} -{"  "}
             <NextLink href="/">
               <span className="ml-1 font-semibold text-gray-800 dark:text-gray-100">
-                Khoironi Kurnia Syah
+                M. Husni Nur Fadillah
               </span>
             </NextLink>{" "}
             . All Rights Reserved.
