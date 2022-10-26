@@ -10,7 +10,7 @@ module.exports = {
   role: "Backend Engineer Wannabe",
   description:
     "A mathematics graduate who has a passion for the field of software engineering, especially backend development.",
-  resume: "https://resume.io/r/iuDuhDJJn",
+  resume: "https://resume.io/r/JoBvU3Li2",
   socials: [
     { href: "https://github.com/husfuu", label: "Github" },
     { href: "https://twitter.com/tanakafuu", label: "Twitter" },
