@@ -38,7 +38,7 @@ module.exports = {
       endTime: "Oktober 2022",
       role: "Trainee Scalable Web Services with Golang",
       company: "Digitalent Scholarship Kominfo",
-      description: "Build a REST API Instagram with Golang.",
+      description: "Build an Instagram REST API clone with Golang.",
     },
     {
       startTime: "August 2021",
